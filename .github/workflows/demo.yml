@@ -11,6 +11,7 @@ jobs:
           echo "Hi we can enter multiple"
           echo "lines of shell commands"
           echo "here.."
+          cat README.md
       - name: List files in the repository
         run: |
           echo "Listing files in the repository(${{ github.workspace }}).."
